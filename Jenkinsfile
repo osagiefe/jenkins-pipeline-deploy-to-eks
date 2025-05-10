@@ -34,6 +34,10 @@ pipeline {
             steps {
                 script {
                     dir('terraform') {
+
+                        sh'terraform init'
+                        sh'terraform fmt'
+                        sh'terraform validate'
                         echo "You are about to ${params.action} to create the aws eks cluster"
                         
                        
