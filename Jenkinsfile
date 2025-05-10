@@ -14,10 +14,14 @@ pipeline {
     }
     stages {
          stage("Terraform init stage"){
-            steps{
-            
-                sh'terraform init'
-                
+            steps {
+                script {
+                    dir('terraform') {
+                       sh'terraform init'
+                       sh'terraform fmt'
+                       sh'terraform validate'
+                    }
+                }
             }
         }
         stage("Create an EKS Cluster") {
