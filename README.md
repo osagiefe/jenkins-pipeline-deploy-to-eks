@@ -9,4 +9,16 @@
 ## 5. Test that the application is running 
 ## 6. Destroy infrastructure
 
+# Final Output
+
+![Image](https://github.com/user-attachments/assets/3960476f-8e6d-4aeb-9698-dc455def3326)
+
+# AWS EKS Cluster
+![Image](https://github.com/user-attachments/assets/411daeeb-1e1a-4673-9913-6071399f65bf)
+
+# successful Jenkins run
+![Image](https://github.com/user-attachments/assets/cbf5bd49-e058-43d7-bdc0-3a16673c7427)
+
+# Destroying Jenkins 
+![Image](https://github.com/user-attachments/assets/8ad8066b-0557-44a6-98b7-07768c959f23)
 
